@@ -29,9 +29,9 @@ I ran this series of commands to create a simple text file per font, which holds
  $> cd /
  $> find /Library/Fonts ${HOME}/Library/Fonts -type f -name "*.otf" \
     |  while read path ; do
-         echo "${path}"        > ${HOME}/Library/Fonts/otf-features-of-my-fonts/${ basename "${path}" ).txt
-         otfinfo -f "${path}" >> ${HOME}/Library/Fonts/otf-features-of-my-fonts/${ basename "${path}" ).txt
-         otfinfo -z "${path}" >> ${HOME}/Library/Fonts/otf-features-of-my-fonts/${ basename "${path}" ).txt
+         echo "${path}"        > ${HOME}/Library/Fonts/otf-features-of-my-fonts/$( basename "${path}" ).txt
+         otfinfo -f "${path}" >> ${HOME}/Library/Fonts/otf-features-of-my-fonts/$( basename "${path}" ).txt
+         otfinfo -z "${path}" >> ${HOME}/Library/Fonts/otf-features-of-my-fonts/$( basename "${path}" ).txt
        done
 ```
 
