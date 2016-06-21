@@ -31,8 +31,11 @@ I ran this series of commands to create a simple text file per font, which holds
     |  while read path ; do
          echo "${path}"        > ${HOME}/Library/Fonts/otf-features-of-my-fonts/${ basename "${path}" ).txt
          otfinfo -f "${path}" >> ${HOME}/Library/Fonts/otf-features-of-my-fonts/${ basename "${path}" ).txt
+         otfinfo -z "${path}" >> ${HOME}/Library/Fonts/otf-features-of-my-fonts/${ basename "${path}" ).txt
        done
 ```
+
+(I added the `-z` parameter too in order to gain info about the *optical sizes* used to design each of the OTF fonts.)
 
 I was surprised to see that all faces of the *FiraSans* family (a set of fonts developed by The Mozilla Foundation in cooperation with Telefonica S.A.) do have 27 features each:
 
