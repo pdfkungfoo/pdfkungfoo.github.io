@@ -3,8 +3,8 @@
 </head>
 
 <nav>
-  [🏠 Home](./) |
-  ["Obduktion" Raspi-3](Obduktionsbericht-zu-RasperryPi-3) |
+  [🏠 Home](/) |
+  ["Obduktion" Raspi-3](/Obduktionsbericht-zu-RasperryPi-3) |
 </nav>
 
 ### Hallo, Leute. Hier spricht 'pdfkungfoo'...

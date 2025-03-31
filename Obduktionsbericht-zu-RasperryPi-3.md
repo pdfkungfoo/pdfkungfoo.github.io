@@ -3,8 +3,8 @@
 </head>
 
 <nav>
-  [🏠 Home](index) |
-  ["Obduktion" Raspi-3](Obduktionsbericht-zu-RasperryPi-3) |
+  [🏠 Home](/) |
+  ["Obduktion" Raspi-3](/Obduktionsbericht-zu-RasperryPi-3) |
 </nav>
 
 # README: Obduktionsbericht zum ungeplanten Ausfall meines alt-erwürdigen Raspberry Pi 3
