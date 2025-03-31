@@ -3,7 +3,7 @@ layout: default
 title: Willkommen
 ---
 
-## Hallo, Leute. Hier spricht 'pdfkungfoo'...
+# Hallo, Leute. Hier spricht 'pdfkungfoo'...
 
 Dies ist der Anfang meines öffentlichen Technik-Blogs. 
 Hier dokumentiere ich, was ich im Alltag rund um's Drucken, um Netzwerke, CUPS, IPP, Raspberry Pi, Pi-hole, DNS, Nextcloud, SSH, Avahi, Git, Monitoring und allerlei Kommandozeilen-Tools erlebe und mitmache.
