@@ -2,6 +2,11 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
+<nav>
+  [🏠 Home](./) |
+  ["Obduktion" Raspi-3](Obduktionsbericht-zu-RasperryPi-3) |
+</nav>
+
 ### Hallo, Leute. Hier spricht 'pdfkungfoo'...
 
 Dies ist der Anfang meines öffentlichen Technik-Blogs. 
