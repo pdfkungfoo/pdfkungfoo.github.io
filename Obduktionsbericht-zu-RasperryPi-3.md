@@ -2,6 +2,11 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
+<nav>
+  [🏠 Home](index) |
+  ["Obduktion" Raspi-3](Obduktionsbericht-zu-RasperryPi-3) |
+</nav>
+
 # README: Obduktionsbericht zum ungeplanten Ausfall meines alt-erwürdigen Raspberry Pi 3
 
 Dieses Dokument rekonstruiert die Ereignisse rund um den plötzlichen Ausfall eines Raspberry Pi 3.
