@@ -3,25 +3,24 @@
 Vergleich verschiedener Schriftarten nebeneinander –  
 wenn alles klappt, sollte ich klare Unterschiede sehen:
 
-```html
-<pre style="font-family: 'M PLUS 1m', monospace;">
+
+<pre style="font-family: 'M PLUS 1m', monospace; background:#f7f7f7; padding:1em;">
 M+ 1m:
 for i in range(10):
     print("Hello World")
 </pre>
 
-<pre style="font-family: 'Courier New', monospace;">
+<pre style="font-family: 'Courier New', monospace; background:#f7f7f7; padding:1em;">
 Courier New:
 for i in range(10):
     print("Hello World")
 </pre>
 
-<pre style="font-family: monospace;">
+<pre style="font-family: monospace; background:#f7f7f7; padding:1em;">
 System default monospace:
 for i in range(10):
     print("Hello World")
 </pre>
-```
 
 ###  Ziel:
 
