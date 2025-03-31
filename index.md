@@ -3,11 +3,6 @@ layout: default
 title: Willkommen
 ---
 
-<nav style="text-align:left;">
-  <a href="index.html">🏠 Home</a> |
-  <a href="Obduktionsbericht-zu-RasperryPi-3.html">"Obduktion" Raspi-3</a>
-</nav>
-
 ## Hallo, Leute. Hier spricht 'pdfkungfoo'...
 
 Dies ist der Anfang meines öffentlichen Technik-Blogs. 

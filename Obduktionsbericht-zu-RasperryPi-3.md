@@ -3,12 +3,7 @@ layout: default
 title: Willkommen
 ---
 
-<nav style="text-align:left;">
-  <a href="index.html">🏠 Home</a> |
-  <a href="Obduktionsbericht-zu-RasperryPi-3.html">"Obduktion" Raspi-3</a>
-</nav>
-
-# README: Obduktionsbericht zum ungeplanten Ausfall meines alt-erwürdigen Raspberry Pi 3
+# README: Obduktionsbericht zum ungeplanten Ausfall meines alt-ehrwürdigen Raspberry Pi 3
 
 Dieses Dokument rekonstruiert die Ereignisse rund um den plötzlichen Ausfall eines Raspberry Pi 3.
 Der fungiert als Brücke, DNS-Server/Ad-Blocker (Pi-hole) und NextCloud-Provider in einem Zwei-WLAN-Haus.
