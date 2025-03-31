@@ -1,3 +1,7 @@
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+
 ### Hallo, Leute. Hier spricht 'pdfkungfoo'...
 
 Dies ist der Anfang meines öffentlichen Technik-Blogs. 
