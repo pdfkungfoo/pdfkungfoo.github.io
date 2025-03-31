@@ -29,14 +29,14 @@ Nach diesem Zeitpunkt: keine weiteren Logs.
 2025-03-31 17:45:17
 ~~~
 
-→ Das System war zwischen 17:39:30 und 17:45:17 **nicht aktiv** und hat **keine Logeinträge produziert**.
+→ Das System war also zwischen 17:39:30 und 17:45:17 **nicht aktiv** und hat **keine Logeinträge produziert**.
 
 ## Weitere Erkenntnisse aus `last -x`
 
 ~~~
 reboot   system boot  6.6.74+rpt-rpi-v Mon Mar 31 17:16   still running
-kurtp    tty1                          Mon Mar 31 17:44    gone - no logout
-runlevel (to lvl 5)                   Mon Mar 31 17:44   still running
+kurtp    tty1                          Mon Mar 31 17:44   gone - no logout
+runlevel (to lvl 5)                    Mon Mar 31 17:44   still running
 ~~~
 
 → `last` interpretiert den Reboot anhand der aktuellen Bootzeit – **nicht anhand eines Shutdowns**.
@@ -56,7 +56,7 @@ Dies bestätigt einen **Hardlock oder Stromversorgungsproblem**, **nicht** einen
 - **SD-Karte temporär nicht lesbar**
 - **Thermischer Schutzmechanismus** (aber keine Throttle-/Temp-Warnungen in dmesg)
 
-## Empfehlungen
+## Mögliche Empfehlungen
 
 - **Stromversorgung stabilisieren** (Netzteil mit min. 5V / 2.5A)
 - **`vcgencmd get_throttled`** regelmäßig prüfen
