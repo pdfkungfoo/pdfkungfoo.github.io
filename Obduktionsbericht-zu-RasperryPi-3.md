@@ -1,6 +1,7 @@
-<head>
-  <link rel="stylesheet" href="style.css">
-</head>
+---
+layout: default
+title: Willkommen
+---
 
 <nav style="text-align:left;">
   <a href="index.html">🏠 Home</a> |
@@ -26,7 +27,7 @@ _(Der Raspi war nur scheintot; ich konnte ihn wiederbeleben, insofern ist das ke
 
 Die letzte sichtbare Aktivität im Systemjournal vor dem Absturz war:
 
-~~~
+~~~bash
 Mar 31 17:39:30 wh18-raspi-1 systemd[1]: Finished phpsessionclean.service - Clean php session files.
 ~~~
 
@@ -34,7 +35,7 @@ Nach diesem Zeitpunkt: keine weiteren Logs.
 
 ## Startzeit laut `uptime -s`
 
-~~~
+~~~bash
 2025-03-31 17:45:17
 ~~~
 
@@ -42,7 +43,7 @@ Nach diesem Zeitpunkt: keine weiteren Logs.
 
 ## Weitere Erkenntnisse aus `last -x`
 
-~~~
+~~~bash
 reboot   system boot  6.6.74+rpt-rpi-v Mon Mar 31 17:16   still running
 kurtp    tty1                          Mon Mar 31 17:44   gone - no logout
 runlevel (to lvl 5)                    Mon Mar 31 17:44   still running
