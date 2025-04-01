@@ -1,10 +1,10 @@
 ---
-title: Startseite
+title: "pdfkungfoo – Technik-Blog, vermischt mit Anderem"
 layout: default
 created: Tue Apr 1 10:57:47 2025 +0200
 createdlink: https://github.com/pdfkungfoo/pdfkungfoo-seiten/commit/45a2544
-lastmod: Tue Apr 1 10:57:47 2025 +0200
-commitlink: https://github.com/pdfkungfoo/pdfkungfoo-seiten/commit/45a2544
+lastmod: Tue Apr 1 12:45:28 2025 +0200
+commitlink: https://github.com/pdfkungfoo/pdfkungfoo-seiten/commit/8b9059e
 ---
 
 
