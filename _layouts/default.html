@@ -10,6 +10,11 @@
     {% include nav.html %}
     {{ content }}
 
+    <p style="text-align: right; font-size: 0.9em; color: #777; font-style: italic; margin-top: -1em;">
+      📅 Geschrieben: {{ page.created }}<br>
+      🔄 Letzte Änderung: {{ page.lastmod }}
+    </p>
+
     <p style="font-size: 0.9em; color: #555; margin-top: -1em;">
       Geschrieben am: {{ page.created }}<br>
       Aktualisiert am: {{ page.lastmod }}
