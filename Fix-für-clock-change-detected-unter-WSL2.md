@@ -1,7 +1,14 @@
+---
+layout: default
+title: ClockChange
+created: Tue Apr 1 01:11:47 2025 +0200
+lastmod:  Tue Apr 1 01:11:47 2025 +0200
+---
+
 # Fix für wiederholte "Clock change detected"-Probleme unter WSL2
 
 Dieses Dokument beschreibt die Ursache und Lösung für ein gravierendes Problem mit instabiler Systemzeit im *Windows Subsystem for Linux (WSL2)*.
-Dieses führte zu ständigen DNS-Schluckaufs und instabilen SSH-Verbindungen zu meinem Raspi 3.
+Dieses verursachte ständige DNS-Schluckaufs und instabile SSH-Verbindungen zu meinem Raspi 3.
 
 ## Problem
 
@@ -38,7 +45,7 @@ Begleitend dazu kam es zu instabilen SSH-Verbindungen („broken pipe“) und h�
 
 ## Fix
 
-Statt `systemd-resolved` des WSL automatisch auf Clock-Jumps reagieren zu lassen, habe ich dieser Dienst deaktiviert und die DNS-Auflösung manuell auf stabile Server gesetzt:
+Statt `systemd-resolved` des WSL automatisch auf Clock-Jumps reagieren zu lassen, habe ich diesen Dienst deaktiviert und die DNS-Auflösung manuell auf stabile Server gesetzt, nämlich auf die beiden Fritz!Boxen und den Raspi-3 selbst:
 
 1. **systemd-resolved deaktivieren:**
 
@@ -91,7 +98,7 @@ Seit diesem Eingriff:
 
 ## Siehe auch:
 
-[README-mit-Obduktionsbericht](#README-mit-Obduktionsbericht) | [resolv.conf](#resolv.conf) | [Pi-hole](#Pi-hole) | [SSH](#SSH) | [systemd-resolved](#systemd-resolved) | [Index](#Index) |
+[Obduktionsbericht](#Obduktionsbericht) | [resolv.conf](#resolv.conf) | [Pi-hole](#Pi-hole) | [SSH](#SSH) | [systemd-resolved](#systemd-resolved) | [Index](#index) |
 
 ---
 

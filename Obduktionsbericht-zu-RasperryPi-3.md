@@ -1,7 +1,10 @@
 ---
 layout: default
-title: Willkommen
+title: ObduktionsBericht
+created: Mon Mar 31 22:43:40 2025 +0200
+lastmod: Mon Mar 31 22:47:55 2025 +0200
 ---
+
 
 # README: Obduktionsbericht zum ungeplanten Ausfall meines alt-ehrwürdigen Raspberry Pi 3
 
