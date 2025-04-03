@@ -1,0 +1,34 @@
+name: Inhaltsverzeichnis aktualisieren
+
+on:
+  push:
+    paths:
+      - '*.md'
+      - 'tools/generate-index.sh'
+    branches:
+      - main
+    # Optional: Nur bei bestimmten Commits
+    # if: "contains(github.event.head_commit.message, '#update-index')"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repo klonen
+        uses: actions/checkout@v3
+
+      - name: Rechte setzen
+        run: chmod +x tools/generate-index.sh
+
+      - name: Inhaltsverzeichnis generieren
+        run: ./tools/generate-index.sh
+
+      - name: Änderungen committen (falls nötig)
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add index.md
+          git diff --cached --quiet || git commit -m "index.md automatisch aktualisiert"
+          git push
+
