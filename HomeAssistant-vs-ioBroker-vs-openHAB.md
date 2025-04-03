@@ -3,8 +3,8 @@ title: "Mein Vergleich: HomeAssistant vs. ioBroker vs. OpenHAB"
 layout: default
 created: Thu Apr 3 11:51:28 2025 +0200
 createdlink: bac0bd2
-lastmod: Thu Apr 3 11:51:28 2025 +0200
-commitlink: bac0bd2
+lastmod: Thu Apr 3 23:26:31 2025 +0200
+commitlink: 23cd528
 ---
 
 
@@ -59,10 +59,18 @@ commitlink: bac0bd2
 
 ---
 
-# Hinweis: Überprüfung durch KI-Models
+# Hinweis: Gegenprüfung und Bewertung des obigen Textes durch verschiedene KI-Models
 
 - Ich werde diesen Text mehreren KIs vorlegen und prüfen lassen.
-- Sobald ich damit durch bin, werden deren Kommentare hier unten noch verlinkt
+- ~~Sobald ich damit durch bin, werden deren Kommentare hier unten noch verlinkt~~
+- **Die Bewertungen durch 8 LLM-ChatBots liegen jetzt vor:**
+   * [Wie ChatGPT obigen Text bewertet](./ChatGPT-Bewertung-meiner-HomeAssistant-vs-ioBroker-vs-openHAB-Tabelle)
+   * [Wie Claude obigen Text bewertet](./Claude-Bewertung-meiner-HomeAssistant-vs-ioBroker-vs-openHAB-Tabelle)
+   * [Wie Copilot obigen Text bewertet](./Copilot-Bewertung-meiner-HomeAssistant-vs-ioBroker-vs-openHAB-Tabelle)
+   * [Wie Gemini obigen Text bewertet](./Gemini-Bewertung-meiner-HomeAssistant-vs-ioBroker-vs-openHAB-Tabelle)
+   * [Wie Grok obigen Text bewertet](./Groks-Bewertung-meiner-HomeAssistant-vs-ioBroker-vs-openHAB-Tabelle)
+   * [Wie Perplexity obigen Text bewertet](./Perplexity-Bewertung-meiner-HomeAssistant-vs-ioBroker-vs-openHAB-Tabelle)
+   * [Wie Qwens obigen Text bewertet](./Qwens-Bewertung-meiner-HomeAssistant-vs-ioBroker-vs-openHAB-Tabelle)
 
 ---
 
