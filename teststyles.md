@@ -1,10 +1,11 @@
 ---
 title: "Typografie-Testseite für Code-Blöcke"
 layout: default
-created: Tue Apr 1 12:22:59 2025 +0200
+created: 2025-04-01T12:22:59+02:00
 createdlink: 3da4e64
-lastmod: Tue Apr 1 12:27:27 2025 +0200
-commitlink: faf508c
+lastmod: 2025-04-01T13:12:05+02:00
+commitlink: 30f927b
+publish: true
 ---
 
 ## Font-Test für Codeblöcke

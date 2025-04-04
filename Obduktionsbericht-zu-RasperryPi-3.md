@@ -1,10 +1,11 @@
 ---
 title: "Obduktionsbericht zu Raspberry Pi 3"
 layout: default
-created: Tue Apr 1 11:50:56 2025 +0200
-createdlink: e3eee7a
-lastmod: Tue Apr 1 13:20:28 2025 +0200
-commitlink: bcbf7a9
+created: 2025-04-01T09:17:48+02:00
+createdlink: 65bdbab
+lastmod: 2025-04-01T13:30:06+02:00
+commitlink: bd06cd6
+publish: true
 ---
 
 # Obduktionsbericht zum ungeplanten Ausfall meines alt-ehrwürdigen Raspberry Pi 3
@@ -80,6 +81,7 @@ Dies bestätigt einen **Hardlock oder Stromversorgungsproblem**, **nicht** einen
 
 Mal sehen, wie lange das jetzt hält...
 
+<!--
 ## Siehe auch:
 
 [README-time-flush-fix](#README-time-flush-fix) |
@@ -88,5 +90,6 @@ Mal sehen, wie lange das jetzt hält...
 [Avahi](#Avahi) |
 [Watchdog](#Watchdog) |
 [Index](#Index) |
+-->
 
-
+----

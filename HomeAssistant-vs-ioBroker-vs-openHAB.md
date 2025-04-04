@@ -1,10 +1,11 @@
 ---
 title: "Mein Vergleich: HomeAssistant vs. ioBroker vs. OpenHAB"
 layout: default
-created: Thu Apr 3 11:51:28 2025 +0200
+created: 2025-04-03T11:51:28+02:00
 createdlink: bac0bd2
-lastmod: Thu Apr 3 23:26:31 2025 +0200
-commitlink: 23cd528
+lastmod: 2025-04-04T00:01:14+02:00
+commitlink: c675867
+publish: true
 ---
 
 
