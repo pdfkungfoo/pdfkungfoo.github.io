@@ -2,11 +2,10 @@
 title: "Fix für systemd-resolved: 'Clock change detected' unter WSL2"
 layout: default
 created: Tue Apr 1 11:40:24 2025 +0200
-createdlink: https://github.com/pdfkungfoo/pdfkungfoo-seiten/commit/cc8079f
+createdlink: 58cdef8
 lastmod: Tue Apr 1 12:51:35 2025 +0200
-commitlink: https://github.com/pdfkungfoo/pdfkungfoo-seiten/commit/5820484
+commitlink: 5820484
 ---
-
 
 # Fix für wiederholte "Clock change detected"-Probleme unter WSL2
 
@@ -99,9 +98,11 @@ Seit diesem Eingriff:
 
    Beim nächsten Start bleibt die manuell gesetzte `/etc/resolv.conf` erhalten.
 
+<!--
 ## Siehe auch:
 
 [Obduktionsbericht](#Obduktionsbericht) | [resolv.conf](#resolv.conf) | [Pi-hole](#Pi-hole) | [SSH](#SSH) | [systemd-resolved](#systemd-resolved) | [Index](#index) |
+-->
 
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: "Bewertung meines Home Automation-Vergleichs durch Claude"
 created: Thu Apr 3 23:26:31 2025 +0200
-createdlink: 23cd528
+createdlink: e2f060d
 lastmod: Thu Apr 3 23:26:31 2025 +0200
-commitlink: 23cd528
+commitlink: e2f060d
 ---
 
 # Frage an Claude

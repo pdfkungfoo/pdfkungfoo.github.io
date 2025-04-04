@@ -1,9 +1,9 @@
 ---
 title: "Inhaltsverzeichnis"
 created: 
-createdlink: https://github.com/pdfkungfoo/pdfkungfoo-seiten/commit/
-lastmod: 
-commitlink: https://github.com/pdfkungfoo/pdfkungfoo-seiten/commit/
+createdlink: 
+lastmod: Fri Apr 4 00:31:25 2025 +0200
+commitlink: e2f060d
 ---
 
 # Übersicht über alle Artikel

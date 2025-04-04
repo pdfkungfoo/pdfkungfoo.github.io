@@ -2,19 +2,19 @@
 title: "pdfkungfoo – Technik-Blog, vermischt mit Anderem"
 layout: default
 created: Tue Apr 1 10:57:47 2025 +0200
-createdlink: https://github.com/pdfkungfoo/pdfkungfoo-seiten/commit/45a2544
+createdlink: 45a2544
 lastmod: Tue Apr 1 12:45:28 2025 +0200
-commitlink: https://github.com/pdfkungfoo/pdfkungfoo-seiten/commit/8b9059e
+commitlink: 8b9059e
 ---
 
 
 # Hallo, Leute. Hier spricht 'pdfkungfoo'...
 
 <!--
-created: Mon Mar 31 22:21:57 2025 +0200
-createdlink: https://github.com/pdfkungfoo/pdfkungfoo-seiten/commit/1234567
-lastmod: Mon Mar 31 23:06:47 2025 +0200
-commitlink: https://github.com/pdfkungfoo/pdfkungfoo-seiten/commit/89abcde
+#created: Mon Mar 31 22:21:57 2025 +0200
+#createdlink: https://github.com/pdfkungfoo/pdfkungfoo-seiten/commit/1234567
+#lastmod: Mon Mar 31 23:06:47 2025 +0200
+#commitlink: https://github.com/pdfkungfoo/pdfkungfoo-seiten/commit/89abcde
 -->
 
 Dies ist der Anfang meines öffentlichen Technik-Blogs. 
